@@ -60,7 +60,7 @@ Zend Engine v3.4.0, Copyright (c) Zend Technologies
 
 ざっくり説明
 
-$ \lim_{n \to \alpha}\frac{f(x)}{g(x)} $ が $\frac{0}{0}$ か $\frac{\alpha}{\alpha}$ の形（不定形）であれば $ \lim_{n \to \alpha}\frac{f'(x)}{g'(x)} $ とすることができる
+$ \lim_{n \to \alpha}\frac{f(x)}{g(x)} $ が $\frac{0}{0}$ か $\frac{\infty}{\infty}$ の形（不定形）であれば $ \lim_{n \to \alpha}\frac{f'(x)}{g'(x)} $ とすることができる
 
 
 
@@ -134,5 +134,3 @@ x=10000000   1.499999925
 x=100000000  1.4999999925
 x=1000000000 1.49999999925
 ```
-
-
