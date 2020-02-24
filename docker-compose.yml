@@ -1,0 +1,8 @@
+version: "3"
+services:
+  pechico:
+    build: ./
+    volumes:
+      - ./src:/work
+    working_dir: /work
+    tty: true
