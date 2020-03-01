@@ -6,3 +6,4 @@ services:
       - ./src:/work
     working_dir: /work
     tty: true
+    command: 'composer install'
